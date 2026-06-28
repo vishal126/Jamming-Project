@@ -1,0 +1,17 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .body {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,8 @@
+.app {
+    min-height: 100vh;
+    width: 100%;
+    padding: 2rem;
+    background: #121212;
+    color: white;
+    box-sizing: border-box;
+}

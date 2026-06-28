@@ -1,0 +1,70 @@
+.track {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 1rem;
+
+    margin-bottom: .8rem;
+
+    background: #282828;
+
+    border-radius: 8px;
+}
+
+.info {
+
+    flex: 1;
+
+}
+
+.title {
+
+    margin: 0;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+}
+
+.artist {
+
+    margin: .4rem 0;
+
+    color: #b3b3b3;
+}
+
+.album {
+
+    color: #888;
+
+    font-size: .85rem;
+}
+
+.button {
+
+    width: 40px;
+
+    height: 40px;
+
+    border-radius: 50%;
+
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 1.2rem;
+
+    background: #1db954;
+
+    color: white;
+}
+
+.button:hover {
+
+    background: #1ed760;
+
+}

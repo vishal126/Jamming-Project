@@ -1,0 +1,12 @@
+.container {
+    background: #181818;
+    padding: 1rem;
+    border-radius: 10px;
+    min-height: 500px;
+    color: white;          /* Add this */
+}
+
+.title {
+    margin-bottom: 1rem;
+    color: white;          /* Or this */
+}
